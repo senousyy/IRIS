@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    height: 100vh;
+    background:linear-gradient(90deg,rgba(101, 9, 109 , 1)30%,rgba(150, 9 , 121 , 1)60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-contant{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.boxbutton{
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 70px;
+}
+
+.restart-button{
+    padding-top: 70px;
+    width:15%;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+
+.restart{
+    background-color: black;
+  color: white;
+  font-size: large;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:linear-gradient(90deg,rgba(101, 9, 109 , 1)30%,rgba(150, 9 , 121 , 1)60%);
+    /* display: none; */
+    text-align: center;
+}
+
+.emoji{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.blayer{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+.box-button:hover{
+    background:linear-gradient(90deg,rgba(101, 9, 109 , 1)30%,rgba(150, 9 , 121 , 1)60%);
+
+    cursor: pointer;
+}
+
+.restart:hover{
+    background:linear-gradient(90deg,rgba(101, 9, 109 , 1)30%,rgba(150, 9 , 121 , 1)60%);
+    cursor: pointer;
+}
